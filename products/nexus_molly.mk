@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Include Pure Nexus tv configuration
-include vendor/nexus/configs/nexus_tv.mk
+include vendor/nexus/configs/nexus_tablet.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/google/molly/full_molly.mk)
